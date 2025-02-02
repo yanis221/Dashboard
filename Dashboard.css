@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212529;
+}
+
+.card {
+    border: none;
+    
+}
+.principale{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+}
+.secondaire{
+    margin-bottom: 50px;
+    margin-left: 50px;}
+div h2{
+    font-size: 23px;
+}
+.card-title {
+    font-weight: 600;
+}
+
+.list-group-item {
+    font-size: 1rem;
+}
+
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img{
+    margin-left: 20px;
+    width: 50px;
+}
+li{
+    font-size: 18px;
+    list-style: decimal;
+    font-weight: 600;
+}
+#pieChart{
+    max-width: 77%;
+}
+#lineChart{
+    margin-right: 50px;
+}
+#map {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
